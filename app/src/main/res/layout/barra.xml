@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#1C1C1E"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:elevation="10dp">
+
+    <View
+        android:id="@+id/bolinha"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="#34C759"
+        android:visibility="gone"
+        android:layout_marginEnd="8dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texto_cima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/texto_baixo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✨ Pronto"
+            android:textColor="#8E8E93"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</LinearLayout>
