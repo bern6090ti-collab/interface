@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fundo">#000000</color>
+    <color name="barra">#1C1C1E</color>
+    <color name="texto">#FFFFFF</color>
+    <color name="cinza">#8E8E93</color>
+    <color name="azul">#007AFF</color>
+    <color name="verde">#34C759</color>
+</resources>
